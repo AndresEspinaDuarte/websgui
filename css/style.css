@@ -9,7 +9,7 @@ body {
   content: '';
   height: 100vh;
   width: 100%;
-  background-image: url('../img/header_bg.jpg');
+  background-image: url('https://d1rv23qj5kas56.cloudfront.net/img/portal-2015/lp/lp-kit-hp-01-header-motive-en.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
