@@ -9,7 +9,7 @@ body {
   content: '';
   height: 100vh;
   width: 100%;
-  background-image: url('https://static.wixstatic.com/media/2ada99_f32a42ab2b2044bea0daa82c78abdd83~mv2.jpg/v1/fill/w_1280,h_640,q_85,usm_0.66_1.00_0.01/2ada99_f32a42ab2b2044bea0daa82c78abdd83~mv2.jpg');
+  background-image: url('../img/hero.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
