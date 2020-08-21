@@ -1,3 +1,8 @@
+/* This changes all the animations globaly */
+:root {
+  --animate-duration: 10000ms;
+  --animate-delay: 5s;
+}
 body {
   font: normal 2em/1.5em "Helvetica Neue", Arial, sans-serif;
   color: #fff;
@@ -19,7 +24,7 @@ button.btn {
 
 
 .bg_blue {
-  background-color: #14213d;
+  background-color: #112645;
   text-align: center;
 }
 .logo_mba {
@@ -38,7 +43,7 @@ button.btn {
   color: white;
 }
 .text_green {
-  color: green;
+  color: #00eb9f;
 }
 .event_date {
   text-transform: uppercase;
@@ -66,11 +71,11 @@ button.btn {
 }
 
 #first {
-  -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-     -moz-animation: fadein 2s; /* Firefox < 16 */
-      -ms-animation: fadein 2s; /* Internet Explorer */
-       -o-animation: fadein 2s; /* Opera < 12.1 */
-          animation: fadein 2s;
+  -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 13.1 */
+     -moz-animation: fadein 3s; /* Firefox < 16 */
+      -ms-animation: fadein 3s; /* Internet Explorer */
+       -o-animation: fadein 3s; /* Opera < 13.1 */
+          animation: fadein 3s;
 }
 @keyframes fadein {
   from { opacity: 0; }
@@ -101,7 +106,7 @@ button.btn {
   to   { opacity: 1; }
 }
 
-/* */
+
 .text-second-page {
   font-size: 50%;
   line-height: normal;
@@ -109,6 +114,264 @@ button.btn {
 .first-half-second-page {
   width: 50%;
   float: left;
+  text-align: justify;
+  margin-left: 10%;
+  width: 46%;
+  margin-top: 5%;
 }
-.header-container {
+.first-half-second-page .logo_mba {
+  width: 25%;
+  margin-left: -1.23%;
+}
+.second-half-second-page img {
+  width: 32%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-right: 2%;
+}
+/* Video */
+#myVideo{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+   background-color: black; /* in case the video doesn't fit the whole page*/
+    background-image: /* our video */;
+    background-position: center center;
+    background-size: contain;
+     object-fit: cover; /*cover video background */
+     z-index:3;
+}
+
+#section0 .layer{
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  left: 0;
+  top: 0;
+
+  /*
+  * Preventing flicker on some browsers
+  * See http://stackoverflow.com/a/36671466/1081396  or issue #183
+  */
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/*solves problem with overflowing video in Mac with Chrome */
+#section0{
+  overflow: hidden;
+}
+.section{
+  text-align:center;
+  overflow: hidden;
+}
+video#myVideo:after {
+	content: '';
+	z-index: 99;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+}
+.separadores {
+  width: 100%;
+  position: absolute;
+  left: inherit;
+  top: 25%
+}
+.on-menu-logo {
+  position: absolute;
+  top: 2%;
+  left: -7%;
+  visibility: visible;
+  z-index: 1;
+  bottom: 0%;
+}
+.on-menu-logo img {
+  width: 22%;
+  margin: 0;
+}
+.on-menu-inicio {
+  position: absolute;
+  top: 3%;
+  left: 22%;
+  visibility: visible;
+  z-index: 1;
+}
+.on-menu-inicio a {
+  color: #14213d;
+  text-decoration: none;
+  font-size: 72%;
+}
+.on-menu-descargar {
+  position: absolute;
+  top: 3.5%;
+  right: 5.5%;
+  visibility: visible;
+  z-index: 1;
+}
+.on-menu-descargar a img {
+  width: 50%;
+}
+.bg-third-page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 110%;
+  visibility: visible;
+  z-index: 1;
+}
+.one_line_text {
+  height: 100px;
+}
+.one_text_date {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+  padding:0;
+  margin-left: 1px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 100px;
+  font-size: 500%;
+  letter-spacing: -7px;
+}
+.one_text {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+  padding:0;
+  margin-left: 1px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 28px;
+  width: 21%;
+  text-align: initial;
+  font-size: 72%;
+  margin-top: -3px;
+}
+.text_left {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  margin-left: 1px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  font-size: 43%;
+  width: 25%;
+  line-height: 21px;
+}
+.text_right {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  margin-left: 104px;
+  display: inline-block;
+  vertical-align: top;
+  line-height: 21px;
+  width: 30%;
+  text-align: initial;
+  font-size: 39%;
+}
+.one_line_text_2 .vs {
+  width: 10%;
+}
+.one_line_text_2 .esencial {
+  width: 22%;
+}
+.one_line_text_3 .no_esencial {
+  width: 27%;
+}
+.pagina {
+  width: 100%;
+}
+.pagina_4 {
+  width: 100%;
+  margin-bottom: -3%;
+  height: 107%;
+}
+section.section.fourth.bg_blue.align-center {
+  margin-bottom: -1% !important;
+}
+.pregunta_text {
+  font-size: 120%;
+  width: 60%;
+  text-transform: uppercase;
+  margin-top: 20%;
+  font-weight: 600;
+  margin-top: 15%;
+  margin: auto;
+  letter-spacing: 9px;
+  line-height: 110%;
+  margin-bottom: 5%;
+}
+#sectionPregunta .layer{
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  left: 0;
+  top: 45%;
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+/*solves problem with overflowing video in Mac with Chrome */
+#sectionPregunta{
+  overflow: hidden;
+}
+.pregunta_text_2 {
+  font-size: 120%;
+  width: 71%;
+  text-transform: uppercase;
+  margin-top: 20%;
+  font-weight: 600;
+  margin-top: 15%;
+  margin: auto;
+  letter-spacing: 9px;
+  line-height: 110%;
+  margin-bottom: 3%;
+}
+#sectionPregunta2 .layer {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  left: 0;
+  top: 36%;
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+#sectionPregunta3 .layer {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  left: 0;
+  top: 35%;
+  -webkit-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+.pregunta_text_3 {
+  font-size: 120%;
+  width: 66%;
+  text-transform: uppercase;
+  margin-top: 20%;
+  font-weight: 600;
+  margin-top: 15%;
+  margin: auto;
+  letter-spacing: 9px;
+  line-height: 110%;
+  margin-bottom: 3%;
 }
