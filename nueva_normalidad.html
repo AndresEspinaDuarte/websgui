@@ -94,10 +94,15 @@
          que es por tanto (o era antes de la pandemia), el sector más
          dinámico de la economía nacional.</p>
       </div>
-      <!-- <img class="is-animated pagina" src="src/Paginas/0004.jpg" />-->
+      <!--<img class="is-animated pagina" src="src/Paginas/0004.jpg" />-->
     </section>
-    <section class="section fourth  bg_blue align-center">
-      <img class="is-animated pagina_4" src="src/Paginas/0005.jpg" />
+    <section id="section4" class="section fourth  bg_blue align-center">
+      <div class="layer">
+        <img class="is-animated" src="src/images/p1.png" />
+        <img class="is-animated" src="src/images/p2.png" />
+        <img class="is-animated" src="src/images/p3.png" />
+        <img class="is-animated" src="src/images/p4.png" />
+      </div>
     </section>
     <section class="showcase section five bg_blue align-center">
       <img class="is-animated pagina" src="src/Paginas/0006.jpg" />
@@ -178,6 +183,10 @@
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.6/jquery.fullPage.min.js'></script><script  src="./script.js"></script>
-
+<script type="text/javascript">
+  var myFullpage = new fullpage('#fullpage', {
+      verticalCentered: true
+  });
+</script>
 </body>
 </html>
