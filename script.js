@@ -88,8 +88,10 @@ $isAnimatedThird
       // third animation
       else if( ( index == 1 || index == 2 || index == 3 ) && nextIndex == 4 ) {
         $isAnimatedFourth.addClass('animated fadeInUp'); 
-        $isAnimatedFourth
-        .css('animation-delay', '.222s');
+        $isAnimatedFourth.eq(0).css('animation-delay', '.222s');
+        $isAnimatedFourth.eq(1).css('animation-delay', '.444s');
+        $isAnimatedFourth.eq(2).css('animation-delay', '.666s');
+        $isAnimatedFourth.eq(3).css('animation-delay', '.8888s');
 $isAnimatedFourth
         .css('animation-duration', '2.22s');
 
