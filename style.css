@@ -161,6 +161,19 @@ button.btn {
   -ms-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+#section4 .layer {
+  position: relative; left: 0; top: 0;
+}
+#section4 .layer img {
+   position: absolute;
+    top: -443px;
+    left: -20px;
+    z-index: 1;
+    width: 100%;
+}
+#section4{
+  overflow: hidden;
+}
 
 /*solves problem with overflowing video in Mac with Chrome */
 #section0{
