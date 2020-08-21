@@ -47,8 +47,9 @@
       // first animation
       if( index == 1 && nextIndex == 2 ) { 
         $isAnimatedSecond.addClass('animated fadeInUp'); 
-        $isAnimatedSecond
-        .css('animation-delay', '.222s');
+        $isAnimatedSecond.eq(0).css('animation-delay', '.222s');
+        $isAnimatedSecond.eq(1).css('animation-delay', '.444s');
+        $isAnimatedSecond.eq(2).css('animation-delay', '.666s');
 $isAnimatedSecond
         .css('animation-duration', '2.22s');
       }
@@ -66,8 +67,10 @@ $isAnimatedSecond
       // second animation
       else if( ( index == 1 || index == 2 ) && nextIndex == 3 ) {
         $isAnimatedThird.addClass('animated fadeInUp'); 
-        $isAnimatedThird
-        .css('animation-delay', '.222s');
+        $isAnimatedThird.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThird.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThird.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThird.eq(3).css('animation-delay', '.8888s');
 $isAnimatedThird
         .css('animation-duration', '2.22s');
 
