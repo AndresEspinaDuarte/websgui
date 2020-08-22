@@ -140,6 +140,23 @@ button.btn {
   -ms-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+#sectionMoreHeight .layer {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+#sectionMoreHeight .layer img {
+  position: absolute;
+  top: -370px;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: auto;
+}
+#sectionMoreHeight {
+  overflow: hidden;
+}
 #section4 .layer {
   position: relative;
   left: 0;
@@ -148,7 +165,7 @@ button.btn {
 }
 #section4 .layer img {
   position: absolute;
-  top: -380px;
+  top: -390px;
   left: 0;
   z-index: 1;
   width: 100vw;
