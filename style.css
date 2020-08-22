@@ -148,7 +148,7 @@ button.btn {
 }
 #section4 .layer img {
   position: absolute;
-  top: -420px;
+  top: -400px;
   left: 0;
   z-index: 1;
   width: 100vw;
@@ -162,9 +162,9 @@ button.btn {
 }
 #sectionFourth .layer img {
   position: absolute;
-  top: -377px;
-  left: 3%;
-  width: 90vw;
+  top: -310px;
+  left: 7%;
+  width: 83vw;
 }
 #sectionFourth {
   overflow: hidden;
@@ -753,4 +753,3 @@ body {
     width:100%;
     top:0;
 }
-
