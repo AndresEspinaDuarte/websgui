@@ -102,32 +102,38 @@ $isAnimatedFourth
 
       else if( ( index == 1 || index == 2 || index == 3 || index == 4 ) && nextIndex == 5 ) {
         $isAnimatedFive.addClass('animated fadeInUp'); 
-        $isAnimatedFive
-        .css('animation-delay', '.222s');
+        $isAnimatedFive.eq(0).css('animation-delay', '.222s');
+        $isAnimatedFive.eq(1).css('animation-delay', '.444s');
+        $isAnimatedFive.eq(2).css('animation-delay', '.666s');
+        $isAnimatedFive.eq(3).css('animation-delay', '.8888s');
 $isAnimatedFive
         .css('animation-duration', '2.22s');
 
       }
       else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 ) && nextIndex == 6 ) {
         $isAnimatedSix.addClass('animated fadeInUp'); 
-        $isAnimatedSix
-        .css('animation-delay', '.222s');
+        $isAnimatedSix.eq(0).css('animation-delay', '.222s');
+        $isAnimatedSix.eq(1).css('animation-delay', '.444s');
+        $isAnimatedSix.eq(2).css('animation-delay', '.666s');
 $isAnimatedSix
         .css('animation-duration', '2.22s');
 
       }
       else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 ) && nextIndex == 7 ) {
         $isAnimatedSeven.addClass('animated fadeInUp'); 
-        $isAnimatedSeven
-        .css('animation-delay', '.222s');
+        $isAnimatedSeven.eq(0).css('animation-delay', '.222s');
+        $isAnimatedSeven.eq(1).css('animation-delay', '.444s');
+        $isAnimatedSeven.eq(2).css('animation-delay', '.666s');
+        $isAnimatedSeven.eq(3).css('animation-delay', '.888s');
 $isAnimatedSeven
         .css('animation-duration', '2.22s');
-
       }
       else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 ) && nextIndex == 8 ) {
         $isAnimatedEight.addClass('animated fadeInUp'); 
-        $isAnimatedEight
-        .css('animation-delay', '.222s');
+        $isAnimatedEight.eq(0).css('animation-delay', '.222s');
+        $isAnimatedEight.eq(1).css('animation-delay', '.444s');
+        $isAnimatedEight.eq(2).css('animation-delay', '.666s');
+        $isAnimatedEight.eq(3).css('animation-delay', '.8888s');
 $isAnimatedEight
         .css('animation-duration', '2.22s');
 
@@ -158,24 +164,30 @@ $isAnimatedEleven
       }
       else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 ) && nextIndex == 12 ) {
         $isAnimatedTwelve.addClass('animated fadeInUp'); 
-        $isAnimatedTwelve
-        .css('animation-delay', '.222s');
+        $isAnimatedTwelve.eq(0).css('animation-delay', '.222s');
+        $isAnimatedTwelve.eq(1).css('animation-delay', '.444s');
+        $isAnimatedTwelve.eq(2).css('animation-delay', '.666s');
+        $isAnimatedTwelve.eq(3).css('animation-delay', '.8888s');
 $isAnimatedTwelve
         .css('animation-duration', '2.22s');
 
       }
       else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 ) && nextIndex == 13 ) {
         $isAnimatedThirteen.addClass('animated fadeInUp'); 
-        $isAnimatedThirteen
-        .css('animation-delay', '.222s');
+        $isAnimatedThirteen.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThirteen.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThirteen.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThirteen.eq(3).css('animation-delay', '.8888s');
 $isAnimatedThirteen
         .css('animation-duration', '2.22s');
 
       }
       else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 ) && nextIndex == 14 ) {
         $isAnimatedFourteen.addClass('animated fadeInUp'); 
-        $isAnimatedFourteen
-        .css('animation-delay', '.222s');
+        $isAnimatedFourteen.eq(0).css('animation-delay', '.222s');
+        $isAnimatedFourteen.eq(1).css('animation-delay', '.444s');
+        $isAnimatedFourteen.eq(2).css('animation-delay', '.666s');
+        $isAnimatedFourteen.eq(3).css('animation-delay', '.8888s');
 $isAnimatedFourteen
         .css('animation-duration', '2.22s');
 
