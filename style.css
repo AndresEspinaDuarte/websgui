@@ -154,6 +154,21 @@ button.btn {
   width: 100vw;
   height: auto;
 }
+#sectionFourth .layer {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+#sectionFourth .layer img {
+  position: absolute;
+  top: -377px;
+  left: 3%;
+  width: 90vw;
+}
+#sectionFourth {
+  overflow: hidden;
+}
 #section4{
   overflow: hidden;
 }
@@ -176,6 +191,7 @@ video#myVideo:after {
 	background: rgba(0, 0, 0, 0.5);
 	position: absolute;
 }
+/*
 .separadores {
   width: 100%;
   position: absolute;
@@ -322,8 +338,9 @@ section.section.fourth.bg_blue.align-center {
   -ms-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+*/
 
-/*solves problem with overflowing video in Mac with Chrome */
+/*solves problem with overflowing video in Mac with Chrome 
 #sectionPregunta{
   overflow: hidden;
 }
@@ -371,7 +388,7 @@ section.section.fourth.bg_blue.align-center {
   line-height: 110%;
   margin-bottom: 3%;
 }
-
+*/
 
 
 
