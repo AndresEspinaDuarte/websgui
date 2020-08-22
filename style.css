@@ -162,7 +162,7 @@ button.btn {
 }
 #sectionFourth .layer img {
   position: absolute;
-  top: -310px;
+  top: -290px;
   left: 7%;
   width: 83vw;
 }
@@ -753,3 +753,4 @@ body {
     width:100%;
     top:0;
 }
+
