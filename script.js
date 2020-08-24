@@ -26,6 +26,8 @@
       $isAnimatedNineteen = $('.nineteen .is-animated'),
       $isAnimatedTwenty = $('.twenty .is-animated'),
       $isAnimatedTwentyone = $('.twentyone .is-animated'),
+      $isAnimatedTwentytwo = $('.twentytwo .is-animated'),
+      $isAnimatedTwentythree = $('.twentythree .is-animated'),
       $isAnimatedFourthSingle = $('.fourth .is-animated__single');
 
   // initialize fullPage
@@ -262,6 +264,25 @@ $isAnimatedTwenty
 $isAnimatedTwentyone
         .css('animation-duration', '2.22s');
 
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 ) && nextIndex == 22 ) {
+        $isAnimatedTwentytwo.addClass('animated fadeInUp'); 
+        $isAnimatedTwentytwo.eq(0).css('animation-delay', '.222s');
+        $isAnimatedTwentytwo.eq(1).css('animation-delay', '.444s');
+        $isAnimatedTwentytwo.eq(2).css('animation-delay', '.666s');
+        $isAnimatedTwentytwo.eq(3).css('animation-delay', '.8888s');
+$isAnimatedTwentytwo
+        .css('animation-duration', '2.22s');
+
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 ) && nextIndex == 23 ) {
+        $isAnimatedTwentythree.addClass('animated fadeInUp'); 
+        $isAnimatedTwentythree.eq(0).css('animation-delay', '.222s');
+        $isAnimatedTwentythree.eq(1).css('animation-delay', '.444s');
+        $isAnimatedTwentythree.eq(2).css('animation-delay', '.666s');
+        $isAnimatedTwentythree.eq(3).css('animation-delay', '.8888s');
+$isAnimatedTwentythree
+        .css('animation-duration', '2.22s');
       }
     }
 
