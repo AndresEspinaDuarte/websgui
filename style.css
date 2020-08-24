@@ -205,7 +205,21 @@ button.btn {
 #section4{
   overflow: hidden;
 }
-
+#sectionComentarios .layer img {
+  position: absolute;
+  top: 80px;
+  left: 8%;
+  width: 82vw;
+}
+#sectionComentarios .layer {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+#sectionComentarios {
+  overflow: hidden;
+}
 /*solves problem with overflowing video in Mac with Chrome */
 #section0{
   overflow: hidden;
@@ -786,4 +800,13 @@ body {
     width:100%;
     top:0;
 }
-
+p.d-block.w-100.text_green.text-uppercase.text_comentario {
+  letter-spacing: 3px;
+  font-size: 82%;
+  font-weight: 700;
+}
+.carousel-inner {
+  position: absolute !important;
+  top: 50%;
+  left: 25%;
+}
