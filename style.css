@@ -805,8 +805,24 @@ p.d-block.w-100.text_green.text-uppercase.text_comentario {
   font-size: 82%;
   font-weight: 700;
 }
-.carousel-inner {
+/*.carousel-inner {
   position: absolute !important;
   top: 50%;
   left: 25%;
+}*/
+.carousel-control-next-icon {
+  background-image: url('src/images/flecha\ der.png') !important;
+}
+.carousel-control-prev-icon {
+  background-image: url('src/images/flecha\ izq.png') !important;
+}/*
+.carousel-control-prev {
+  left: 3%;
+}
+.carousel-control-next {
+  right: 3%;
+}*/
+.carousel-inner {
+  width: 84vw !important;
+  margin-left: 8%;
 }
