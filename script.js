@@ -5,9 +5,7 @@
   // variables
   var 
       $isAnimatedSecond = $('.second .is-animated'),
-      $isAnimatedSecondSingle = $('.second .is-animated__single'),
       $isAnimatedThird = $('.third .is-animated'),
-      $isAnimatedThirdSingle = $('.third .is-animated__single'),
       $isAnimatedFourth = $('.fourth .is-animated'),
       $isAnimatedFive = $('.five .is-animated'),
       $isAnimatedSix = $('.six .is-animated'),
@@ -28,7 +26,22 @@
       $isAnimatedTwentyone = $('.twentyone .is-animated'),
       $isAnimatedTwentytwo = $('.twentytwo .is-animated'),
       $isAnimatedTwentythree = $('.twentythree .is-animated'),
-      $isAnimatedFourthSingle = $('.fourth .is-animated__single');
+      $isAnimatedTwentyfour = $('.twentyfour .is-animated'),
+      $isAnimatedTwentyfive = $('.twentyfive .is-animated'),
+      $isAnimatedTwentysix = $('.twentysix .is-animated'),
+      $isAnimatedTwentyseven = $('.twentyseven .is-animated'),
+      $isAnimatedTwentyeight = $('.twentyeight .is-animated'),
+      $isAnimatedTwentynine = $('.twentynine .is-animated'),
+      $isAnimatedThirty = $('.thirty .is-animated'),
+      $isAnimatedThirtyone = $('.thirtyone .is-animated'),
+      $isAnimatedThirtytwo = $('.thirtytwo .is-animated'),
+      $isAnimatedThirtythree = $('.thirtythree .is-animated'),
+      $isAnimatedThirtyfour = $('.thirtyfour .is-animated'),
+      $isAnimatedThirtyfive = $('.thirtyfive .is-animated'),
+      $isAnimatedThirtysix = $('.thirtysix .is-animated'),
+      $isAnimatedThirtyseven = $('.thirtyseven .is-animated'),
+      $isAnimatedThirtyeight = $('.thirtyeight .is-animated'),
+      $isAnimatedThirtynine = $('.thirtynine .is-animated');
 
   // initialize fullPage
   $('#fullpage').fullpage({
@@ -284,8 +297,152 @@ $isAnimatedTwentytwo
 $isAnimatedTwentythree
         .css('animation-duration', '2.22s');
       }
-    }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 ) && nextIndex == 24 ) {
+        $isAnimatedTwentyfour.addClass('animated fadeInUp'); 
+        $isAnimatedTwentyfour.eq(0).css('animation-delay', '.222s');
+        $isAnimatedTwentyfour.eq(1).css('animation-delay', '.444s');
+        $isAnimatedTwentyfour.eq(2).css('animation-delay', '.666s');
+        $isAnimatedTwentyfour.eq(3).css('animation-delay', '.8888s');
+$isAnimatedTwentyfour
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 ) && nextIndex == 25 ) {
+        $isAnimatedTwentyfive.addClass('animated fadeInUp'); 
+        $isAnimatedTwentyfive.eq(0).css('animation-delay', '.222s');
+        $isAnimatedTwentyfive.eq(1).css('animation-delay', '.444s');
+        $isAnimatedTwentyfive.eq(2).css('animation-delay', '.666s');
+        $isAnimatedTwentyfive.eq(3).css('animation-delay', '.8888s');
+$isAnimatedTwentyfive
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 ) && nextIndex == 26 ) {
+        $isAnimatedTwentysix.addClass('animated fadeInUp'); 
+        $isAnimatedTwentysix.eq(0).css('animation-delay', '.222s');
+        $isAnimatedTwentysix.eq(1).css('animation-delay', '.444s');
+        $isAnimatedTwentysix.eq(2).css('animation-delay', '.666s');
+        $isAnimatedTwentysix.eq(3).css('animation-delay', '.8888s');
+$isAnimatedTwentysix
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 ) && nextIndex == 27 ) {
+        $isAnimatedTwentyseven.addClass('animated fadeInUp'); 
+        $isAnimatedTwentyseven.eq(0).css('animation-delay', '.222s');
+        $isAnimatedTwentyseven.eq(1).css('animation-delay', '.444s');
+        $isAnimatedTwentyseven.eq(2).css('animation-delay', '.666s');
+        $isAnimatedTwentyseven.eq(3).css('animation-delay', '.8888s');
+$isAnimatedTwentyseven
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 ) && nextIndex == 28 ) {
+        $isAnimatedTwentyeight.addClass('animated fadeInUp'); 
+        $isAnimatedTwentyeight.eq(0).css('animation-delay', '.222s');
+        $isAnimatedTwentyeight.eq(1).css('animation-delay', '.444s');
+        $isAnimatedTwentyeight.eq(2).css('animation-delay', '.666s');
+        $isAnimatedTwentyeight.eq(3).css('animation-delay', '.8888s');
+$isAnimatedTwentyeight
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 || index == 28 ) && nextIndex == 29 ) {
+        $isAnimatedTwentynine.addClass('animated fadeInUp'); 
+        $isAnimatedTwentynine.eq(0).css('animation-delay', '.222s');
+        $isAnimatedTwentynine.eq(1).css('animation-delay', '.444s');
+        $isAnimatedTwentynine.eq(2).css('animation-delay', '.666s');
+        $isAnimatedTwentynine.eq(3).css('animation-delay', '.8888s');
+$isAnimatedTwentynine
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 || index == 28 || index == 29 ) && nextIndex == 30 ) {
+        $isAnimatedThirty.addClass('animated fadeInUp'); 
+        $isAnimatedThirty.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThirty.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThirty.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThirty.eq(3).css('animation-delay', '.8888s');
+$isAnimatedThirty
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 || index == 28 || index == 29 || index == 30 ) && nextIndex == 31 ) {
+        $isAnimatedThirtyone.addClass('animated fadeInUp'); 
+        $isAnimatedThirtyone.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThirtyone.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThirtyone.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThirtyone.eq(3).css('animation-delay', '.8888s');
+$isAnimatedThirtyone
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 || index == 28 || index == 29 || index == 30 || index == 31 ) && nextIndex == 32 ) {
+        $isAnimatedThirtytwo.addClass('animated fadeInUp'); 
+        $isAnimatedThirtytwo.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThirtytwo.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThirtytwo.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThirtytwo.eq(3).css('animation-delay', '.8888s');
+$isAnimatedThirtytwo
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 || index == 28 || index == 29 || index == 30 || index == 31 || index == 32 ) && nextIndex == 33 ) {
+        $isAnimatedThirtythree.addClass('animated fadeInUp'); 
+        $isAnimatedThirtythree.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThirtythree.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThirtythree.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThirtythree.eq(3).css('animation-delay', '.8888s');
+$isAnimatedThirtythree
+        .css('animation-duration', '2.22s');
+      }
 
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 || index == 28 || index == 29 || index == 30 || index == 31 || index == 32 || index == 33 ) && nextIndex == 34 ) {
+        $isAnimatedThirtyfour.addClass('animated fadeInUp'); 
+        $isAnimatedThirtyfour.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThirtyfour.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThirtyfour.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThirtyfour.eq(3).css('animation-delay', '.8888s');
+$isAnimatedThirtyfour
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 || index == 28 || index == 29 || index == 30 || index == 31 || index == 32 || index == 33 || index == 34 ) && nextIndex == 35 ) {
+        $isAnimatedThirtyfive.addClass('animated fadeInUp'); 
+        $isAnimatedThirtyfive.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThirtyfive.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThirtyfive.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThirtyfive.eq(3).css('animation-delay', '.8888s');
+$isAnimatedThirtyfive
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 || index == 28 || index == 29 || index == 30 || index == 31 || index == 32 || index == 33 || index == 34 || index == 35 ) && nextIndex == 36 ) {
+        $isAnimatedThirtysix.addClass('animated fadeInUp'); 
+        $isAnimatedThirtysix.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThirtysix.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThirtysix.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThirtysix.eq(3).css('animation-delay', '.8888s');
+$isAnimatedThirtysix
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 || index == 28 || index == 29 || index == 30 || index == 31 || index == 32 || index == 33 || index == 34 || index == 35 || index == 36 ) && nextIndex == 37 ) {
+        $isAnimatedThirtyseven.addClass('animated fadeInUp'); 
+        $isAnimatedThirtyseven.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThirtyseven.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThirtyseven.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThirtyseven.eq(3).css('animation-delay', '.8888s');
+$isAnimatedThirtyseven
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 || index == 28 || index == 29 || index == 30 || index == 31 || index == 32 || index == 33 || index == 34 || index == 35 || index == 36 || index == 37 ) && nextIndex == 38 ) {
+        $isAnimatedThirtyeight.addClass('animated fadeInUp'); 
+        $isAnimatedThirtyeight.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThirtyeight.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThirtyeight.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThirtyeight.eq(3).css('animation-delay', '.8888s');
+$isAnimatedThirtyeight
+        .css('animation-duration', '2.22s');
+      }
+      else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 || index == 17 || index == 18 || index == 19 || index == 20 || index == 21 || index == 22 || index == 23 || index == 24 || index == 25 || index == 26 || index == 27 || index == 28 || index == 29 || index == 30 || index == 31 || index == 32 || index == 33 || index == 34 || index == 35 || index == 36 || index == 37 || index == 38 ) && nextIndex == 39 ) {
+        $isAnimatedThirtynine.addClass('animated fadeInUp'); 
+        $isAnimatedThirtynine.eq(0).css('animation-delay', '.222s');
+        $isAnimatedThirtynine.eq(1).css('animation-delay', '.444s');
+        $isAnimatedThirtynine.eq(2).css('animation-delay', '.666s');
+        $isAnimatedThirtynine.eq(3).css('animation-delay', '.8888s');
+$isAnimatedThirtynine
+        .css('animation-duration', '2.22s');
+      }
+    }
   });
   
 })(jQuery);
