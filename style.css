@@ -1,3 +1,4 @@
+
 /* This changes all the animations globaly */
 :root {
   --animate-duration: 10000ms;
@@ -148,13 +149,28 @@ button.btn {
 }
 #sectionMoreHeight .layer img {
   position: absolute;
-  top: -370px;
+  top: -350px;
   left: 0;
   z-index: 1;
   width: 100vw;
   height: auto;
 }
 #sectionMoreHeight {
+  overflow: hidden;
+}
+#sectionFourthLitle .layer {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+#sectionFourthLitle .layer img {
+  position: absolute;
+  top: -270px;
+  left: 8%;
+  width: 82vw;
+}
+#sectionFourthLitle {
   overflow: hidden;
 }
 #section4 .layer {
