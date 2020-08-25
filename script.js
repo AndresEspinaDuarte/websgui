@@ -18,7 +18,8 @@
       $isAnimatedThirteen = $('.thirteen .is-animated'),
       $isAnimatedFourteen = $('.fourteen .is-animated'),
       $isAnimatedFifteen = $('.fifteen .is-animated'),
-      $isAnimatedSixteen = $('.sixteen .is-animated'),
+      $isAnimatedSixteen = $('.sixteen .is-animated');
+      /*
       $isAnimatedSeventeen = $('.seventeen .is-animated'),
       $isAnimatedEighteen = $('.eighteen .is-animated'),
       $isAnimatedNineteen = $('.nineteen .is-animated'),
@@ -42,6 +43,7 @@
       $isAnimatedThirtyseven = $('.thirtyseven .is-animated'),
       $isAnimatedThirtyeight = $('.thirtyeight .is-animated'),
       $isAnimatedThirtynine = $('.thirtynine .is-animated');
+      */
 
   // initialize fullPage
   $('#fullpage').fullpage({
@@ -227,7 +229,7 @@ $isAnimatedFifteen
 $isAnimatedSixteen
         .css('animation-duration', '2.22s');
 
-      }
+      }/*
       else if( ( index == 1 || index == 2 || index == 3 || index == 4 || index == 5 || index == 6 || index == 7 || index == 8 || index == 9 || index == 10 || index == 11 || index == 12 || index == 13 || index == 14 || index == 15 || index == 16 ) && nextIndex == 17 ) {
         $isAnimatedSeventeen.addClass('animated fadeInUp'); 
         $isAnimatedSeventeen.eq(0).css('animation-delay', '.222s');
@@ -441,7 +443,7 @@ $isAnimatedThirtyeight
         $isAnimatedThirtynine.eq(3).css('animation-delay', '.8888s');
 $isAnimatedThirtynine
         .css('animation-duration', '2.22s');
-      }
+      }*/
     }
   });
   
