@@ -44,7 +44,8 @@ button.btn {
   text-align: center;
 }
 .logo_mba {
-  width: 100%;
+  width: 60%;
+  margin-top: 48px;
 }
 .btn_descarga_menu {
   width: 100%;
@@ -863,11 +864,13 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
 }
 #logorrhh img {
   width: 66%;
+  height: 618px;
 }
 #btn_download ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: center;
 }
 #section4 .layer #main-hero {
   width: 82vw;
@@ -944,7 +947,7 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
   z-index: -1;
   width: 100%;
 }
-.logo_mba {
+.logo_descargar_menu {
   width: 55%;
   margin: 18px;
   margin-top: 39px;
