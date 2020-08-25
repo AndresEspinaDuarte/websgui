@@ -857,13 +857,21 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
 }
 #logorrhh {
   position: fixed;
-  top: 0.2%;
+  top: 2.2%;
   margin: 0;
   padding: 0;
   z-index: 4;
 }
 #logorrhh img {
-  width: 66%;
+  position: absolute;
+}
+#logorrhh #logo_pw {
+  width: 200px;
+  top: 55px;
+}
+#logorrhh #logo_rrhh {
+  top: 533px;
+  width: 200px;
 }
 #btn_download ul {
   list-style: none;
