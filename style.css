@@ -815,7 +815,18 @@ p.d-block.w-100.text_green.text-uppercase.text_comentario {
 }
 .carousel-control-prev-icon {
   background-image: url('src/images/flecha\ izq.png') !important;
-}/*
+}
+div#carouselExampleControls .fp-tableCell a.carousel-control-prev {
+  left: 10%;
+  height: 19%;
+  top: 50%;
+}
+div#carouselExampleControls .fp-tableCell a.carousel-control-next {
+  right: 10%;
+  height: 19%;
+  top: 50%;
+}
+/*
 .carousel-control-prev {
   left: 3%;
 }
@@ -839,16 +850,16 @@ p.d-block.w-100.text_green.text-uppercase.text_comentario {
   position: fixed;
   margin: 0;
   padding: 0;
-  z-index: 999;
+  z-index: 5;
   top: 34%;
   width: 7%;
 }
 #logorrhh {
   position: fixed;
-  top: 6%;
+  top: 2.2%;
   margin: 0;
   padding: 0;
-  z-index: 999;
+  z-index: 4;
 }
 #logorrhh img {
   width: 66%;
@@ -865,7 +876,7 @@ p.d-block.w-100.text_green.text-uppercase.text_comentario {
 #sectionFourthLitle .layer #final_descarga {
   width: 30%;
   left: 34%;
-  top: 230px;
+  top: 180px;
 }
 #sectionMoreHeight .layer-bg {
   position: relative;
@@ -924,4 +935,46 @@ p.d-block.w-100.text_green.text-uppercase.text_comentario {
   top: -290px;
   left: 7%;
   width: 83vw;
+}
+.fp-slides {
+  z-index: 7;
+}
+#menu_left {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+.logo_mba {
+  width: 70%;
+  margin: 14px;
+  margin-top: 31px;
+}
+#link_descarga {
+  position: absolute;
+  left: 8%;
+  z-index: 999;
+}
+#sectionFourth .layer-bg #circulo_six {
+  top: -680px;
+  left: 4%;
+}
+#sectionFourth .layer-bg #circulo_six_chico {
+  left: 60%;
+  top: -203px;
+}
+#sectionFourth .layer-bg #circulo_eight {
+  top: -550px;
+  left: 63%;
+}
+#sectionFourth .layer-bg #circulo_eight_chico {
+  left: 0%;
+  top: -240px;
+}
+#sectionFourth .layer-bg #circulo_five {
+  top: -550px;
+  left: 63%;
+}
+#sectionFourth .layer-bg #circulo_five_chico {
+  left: 0%;
+  top: -240px;
 }
