@@ -837,15 +837,91 @@ p.d-block.w-100.text_green.text-uppercase.text_comentario {
 }
 #btn_download {
   position: fixed;
-  width: 95px;
-  top: 44%;
   margin: 0;
   padding: 0;
-  background-color: #f1f1f1;
   z-index: 999;
+  top: 34%;
+  width: 7%;
+}
+#logorrhh {
+  position: fixed;
+  top: 6%;
+  margin: 0;
+  padding: 0;
+  z-index: 999;
+}
+#logorrhh img {
+  width: 66%;
 }
 #btn_download ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+#section4 .layer #main-hero {
+  width: 82vw;
+  left: 9%;
+}
+#sectionFourthLitle .layer #final_descarga {
+  width: 30%;
+  left: 34%;
+  top: 230px;
+}
+#sectionMoreHeight .layer-bg {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+#sectionMoreHeight .layer-bg img {
+  position: absolute;
+  top: -350px;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: auto;
+}
+#sectionMoreHeight {
+  overflow: hidden;
+}
+#sectionFourthLitle .layer-bg {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+#sectionFourthLitle .layer-bg img {
+  position: absolute;
+  top: -270px;
+  left: 8%;
+  width: 82vw;
+}
+#sectionFourthLitle {
+  overflow: hidden;
+}
+#section4 .layer-bg {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+#section4 .layer-bg img {
+  position: absolute;
+  top: -390px;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: auto;
+}
+#sectionFourth .layer-bg {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+#sectionFourth .layer-bg img {
+  position: absolute;
+  top: -290px;
+  left: 7%;
+  width: 83vw;
 }
