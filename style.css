@@ -866,12 +866,12 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
   position: absolute;
 }
 #logorrhh #logo_pw {
-  width: 200px;
+  width: 191px;
   top: 35px;
 }
 #logorrhh #logo_rrhh {
-  top: 533px;
-  width: 200px;
+  top: 40em;
+  width: 1900px;
 }
 #btn_download ul {
   list-style: none;
@@ -987,4 +987,123 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
 #sectionFourth .layer-bg #circulo_five_chico {
   left: 0%;
   top: -240px;
+}
+
+
+/*
+  -- RESPONSIVE --
+*/
+#logorrhh_mobile img {
+  position: absolute;
+  width: 60px;
+  top: 10px;
+  left: 228px;
+}
+#logorrhh_mobile {
+  position: fixed;
+  top: 2.2%;
+  margin: 0;
+  padding: 0;
+  z-index: 4;
+  left: 8px;
+}
+#logorrhh_mobile #logo_pw_mobile {
+  width: 66px;
+  left: 10px;
+  top: 4px;
+}
+#btn_download_mobile {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  z-index: 5;
+  top: 0;
+  width: 45%;
+  left: 27%;
+}
+#btn_download_mobile ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#btn_download_mobile .logo_mba_mobile {
+  width: 26%;
+  float: left;
+  margin: 10px;
+  margin-left: 17%;
+}
+#btn_download_mobile .logo_descargar_mobile {
+  width: 20%;
+  float: left;
+  margin: 10px;
+  margin-left: 10%;
+}
+#sectionFourth_mobile .layer img {
+  position: absolute;
+  top: 22px;
+  left: 0%;
+  width: 100vw;
+  z-index: 3;
+}
+#sectionFourth_mobile .layer-bg {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 2;
+}
+#sectionFourth_mobile .layer-bg img {
+  position: absolute;
+  top: -290px;
+  left: 7%;
+  width: 83vw;
+}
+#sectionMoreHeight_mobile .layer {
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: 3;
+}
+#sectionMoreHeight_mobile .layer img {
+  position: absolute;
+  top: -280px;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: auto;
+}
+#sectionMoreHeight_mobile {
+  overflow: hidden;
+}
+#sectionMoreHeight_mobile .layer-bg {
+  position: relative;
+  left: 0;
+  top: 50px;
+  z-index: 2;
+}
+#sectionMoreHeight_mobile .layer-bg img {
+  position: absolute;
+  top: -350px;
+  left: 0;
+  z-index: 1;
+  width: 100vw;
+  height: auto;
+}
+#sectionMoreHeight_mobile {
+  overflow: hidden;
+}
+#section4_mobile .layer img {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  z-index: 3;
+  width: 100vw;
+  height: auto;
+}
+#link_descarga_mobile {
+  position: absolute;
+  left: 0%;
+  z-index: 999;
+  top: 0;
+  width: 100vw;
 }
