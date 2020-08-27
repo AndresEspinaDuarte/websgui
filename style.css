@@ -871,7 +871,7 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
 }
 #logorrhh #logo_rrhh {
   top: 40em;
-  width: 1900px;
+  width: 170px;
 }
 #btn_download ul {
   list-style: none;
@@ -997,7 +997,7 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
   position: absolute;
   width: 60px;
   top: 10px;
-  left: 228px;
+  left: 17em;
 }
 #logorrhh_mobile {
   position: fixed;
@@ -1066,7 +1066,7 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
 }
 #sectionMoreHeight_mobile .layer img {
   position: absolute;
-  top: -280px;
+  top: -370px;
   left: 0;
   z-index: 1;
   width: 100vw;
