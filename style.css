@@ -1041,9 +1041,9 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
 }
 #sectionFourth_mobile .layer img {
   position: absolute;
-  top: 22px;
-  left: 0%;
-  width: 100vw;
+  top: 2.2em;
+  left: 8%;
+  width: 85vw;
   z-index: 3;
 }
 #sectionFourth_mobile .layer-bg {
@@ -1066,7 +1066,7 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
 }
 #sectionMoreHeight_mobile .layer img {
   position: absolute;
-  top: -370px;
+  top: -20em;
   left: 0;
   z-index: 1;
   width: 100vw;
