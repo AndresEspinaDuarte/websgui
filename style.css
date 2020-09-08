@@ -873,6 +873,7 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
   z-index: 1;
   width: 60vw;
   height: auto;
+  z-index: 999;
 }
 #sectionMoreHeight_mobile {
   overflow: hidden;
