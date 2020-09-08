@@ -866,6 +866,14 @@ div#carouselExampleControls .fp-tableCell a.carousel-control-next {
   width: 100vw;
   height: auto;
 }
+#sectionMoreHeight_mobile .layer #logo_pw {
+  position: absolute;
+  top: 8em;
+  left: 5em;
+  z-index: 1;
+  width: 60vw;
+  height: auto;
+}
 #sectionMoreHeight_mobile {
   overflow: hidden;
 }
