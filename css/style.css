@@ -1,3 +1,8 @@
+body {
+  background: #F7F8F7;
+  margin: 0;
+  color: #F7F8F7;
+}
 .img-responsive {
     width: 100%;
     height: auto;
