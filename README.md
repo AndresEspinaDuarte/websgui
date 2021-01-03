@@ -1,2 +1,2 @@
 # websgui
-U know how is it
+Just how is it
